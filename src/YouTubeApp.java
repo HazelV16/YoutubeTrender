@@ -31,7 +31,13 @@ public class YouTubeApp {
                     do {
                         System.out.println("Do you want to try again? (Y/N) ");
                         String retryInput = in.nextLine();
-                        if (!retryInput.equalsIgnoreCase("Y")) {
+                        if (retryInput.equalsIgnoreCase("n")) {
+//                            input = false;
+                            System.out.println("Terminate program");
+                            System.exit(0);
+//                            retry = false;
+                        }
+                        else if (!retryInput.equalsIgnoreCase("Y")) {
                             System.out.println("Invalid input. Please enter Y or N");
                             retry = false;
                         }
