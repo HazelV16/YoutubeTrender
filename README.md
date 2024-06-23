@@ -17,5 +17,17 @@ YouTube Data API for listing videos: https://developers.google.com/youtube/v3/do
 ### This project is to develop a command line application that can detect the YouTube Trending Topics.
 
 1. Parse a YouTube video data string in into a YouTube video object
-2. Sort Video objects by different features (e.g. title, channel title, views, date, etc.) [20%]
-3. Index the list of videos for word usage, aka “Trending Topics” [20%]
+   ![YoutubeTrender](assets/firstPrompt.png "first prompt")
+You can generate your own youtube data json file and input the path in the CLI
+
+
+2. Sort Video objects by different features (e.g. title, channel title, views, date, etc.)
+   ![YoutubeTrender](assets/secondPrompt.png "second prompt")
+After you enter the file path correctly, there is an action menu that you can choose whichever option you would like
+For example, in this case, you chose the option 1. There will be a sorting menu pop up
+   ![YoutubeTrender](assets/thirdPrompt.png "third prompt")
+
+
+4. Index the list of videos for word usage, aka “Trending Topics”
+Here is the menu option if you chose option 2 from the action menu
+   ![YoutubeTrender](assets/fourthPrompt.png "fourth prompt")
