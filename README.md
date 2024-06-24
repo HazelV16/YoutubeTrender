@@ -7,7 +7,7 @@ video clips, TV clips, music videos, movie trailers, and other content such as v
 original videos, and educational videos. User can also add a title and description to the videos and
 by examining the contents of and detecting which words appear frequently across titles and
 descriptions we can detect “trending topics.” See below for more information on YouTube and the
-YouTube Data API that generate the list of videos used in this assignment:
+YouTube Data API that generate the list of videos used in this project:
 
 YouTube: https://www.youtube.com/yt/about/en-GB/  
 Wikipedia on Youtube: https://en.wikipedia.org/wiki/YouTube  
